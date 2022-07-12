@@ -59,7 +59,7 @@
                 <div>
                       <label class="modal-lable" for="name">
                          <span class="modal-title">Имя</span>
-                     <input class="input-lable" type="name" name="name" id="user_name" required>       
+                     <input class="input-lable" type="text" name="name" id="user_name" required>       
                         <svg class="modal-icon" width="12" height="12">
                         <use href="./image/icons.svg#icon-human"></use>
                         </svg>
@@ -82,33 +82,26 @@
                     <use href="./image/icons.svg#icon-envelope"></use>
                     </svg>
                     </label>
-                 </div>
-                 
+                 </div>      
                 <div>
                   <label class="modal-lable-coment" for="">
                     <span class="modal-title">Комментарий</span> 
                        <textarea class="modal-coment" name="coment" id="user_coment"  placeholder="Введите текст"></textarea>
                        </label>
-                  </div>
-            <label class="check-label">
-                <input class=" visually-hidden checkbox-lable"  type="checkbox" name="checkbox" id="user_checkbox" checked>
-                <span class="form-checkbox-custom">
-                  <svg class="checkbox-icon" width="16" height="15">
-                    <use href="./image/icons.svg#icon-mark"></use>
-                 </svg>
-                 </label>
-                 <label>
-                <span class="form-checkbox-agreement">Соглашаюсь с рассылкой и принимаю
-                  <a class="conditions"href="#">Условия договора</a> 
-                </span> 
-               
+                  </div>            
+                 <label class="check-label">
+              <input class="visually-hidden checkbox-lable" type="checkbox" name="checkbox" checked />
+              <span class="form-checkbox-custom">
+                <svg class="checkbox-icon" width="16" height="15">
+                  <use  href="./image/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              <span class="form-checkbox-agreement">Соглашаюсь с рассылкой и принимаю <a class="conditions" href="">Условия договора</a> </span>
             </label>
                 <button class="modal-submit" type="submit">Отправить</button>
-            </label>
             </form>
           </div>
         </div>
-        
       </section>
       <!--Особенности компании-->
       <section class="section features">
