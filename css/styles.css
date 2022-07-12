@@ -804,7 +804,8 @@ li {
   margin-left: 70px;
 }
 
-.label-mail:focus {
+.label-mail:focus,
+.label-mail:hover {
   border: 1px solid #188ce8;
   transition: 250ms var(--timing-funktion);
 }
