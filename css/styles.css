@@ -360,18 +360,11 @@ li {
   border: 1px solid #188ce8;
   transition: 250ms var(--timing-funktion);
 }
-.input-lable:hover {
-  border-color: var(--accent-color);
-}
-.modal-coment:hover {
-  outline: var(--accent-color);
-  border: 1px solid #188ce8;
-  transition: 250ms var(--timing-funktion);
-}
 .input-lable:focus + .modal-icon {
   fill: var(--accent-color);
   transition: 250ms var(--timing-funktion);
 }
+
 .modal-title {
   font-family: "Roboto";
   font-style: normal;
@@ -809,6 +802,11 @@ li {
   position: relative;
   padding-top: 0;
   margin-left: 70px;
+}
+
+.label-mail:focus {
+  border: 1px solid #188ce8;
+  transition: 250ms var(--timing-funktion);
 }
 
 .label-title {
