@@ -806,7 +806,7 @@ li {
   display: inline;
   position: relative;
   padding-top: 0;
-  margin-left: 70px;
+  margin-left: auto;
 }
 
 .label-mail:focus,
